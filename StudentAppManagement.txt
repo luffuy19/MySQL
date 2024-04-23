@@ -1,0 +1,17 @@
+create database library;
+create database Student_Management;
+use Student_Management;
+create table Student(
+rollNo int primary key,
+studentName varchar(20) not null,
+attendence int not null,
+studentRank int not null,
+total int not null,
+studentClass char(1) not null,
+mentorName varchar(20) not null
+);
+insert into Student values(3500,"Ajith",90,2,490,'A',"Sachinnathan");
+insert into Student values(3501,"Kishore",75,1,500,'E',"Suresh");
+insert into Student values(3502,"Vishnu",95,4,450,'A',"Sachinnathan");
+insert into Student values(3503,"Vikram",85,5,390,'C',"Vinitha");
+insert into Student values(3504,"Manoj",96,3,460,'B',"Suji");
